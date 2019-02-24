@@ -1,179 +1,182 @@
-Python3 ÄÚ½¨º¯Êý
-ÊýÖµ¶ÔÏóµÄ¹¹Ôì(´´½¨)º¯Êý
-º¯Êý                            ËµÃ÷
-float(obj)                             ÓÃ×Ö·û´®»òÊý×Ö×ª»»Îª¸¡µãÊý, Èç¹û²»¸ø³ö²ÎÊý£¬Ôò·µ»Ø0.0
-
-
-
+Python3 å†…å»ºå‡½æ•°
+æ•°å€¼å¯¹è±¡çš„æž„é€ (åˆ›å»º)å‡½æ•°
+å‡½æ•°                                            è¯´æ˜Ž
+float(obj)                             ç”¨å­—ç¬¦ä¸²æˆ–æ•°å­—è½¬æ¢ä¸ºæµ®ç‚¹æ•°, å¦‚æžœä¸ç»™å‡ºå‚æ•°ï¼Œåˆ™è¿”å›ž0.0
 int(x, base=10)
-int(x=0)                               ÓÃÊý×Ö»ò×Ö·û´®×ª»»ÎªÕûÊý,Èç¹û²»¸ø³ö²ÎÊý£¬Ôò·µ»Ø0
+int(x=0)                               ç”¨æ•°å­—æˆ–å­—ç¬¦ä¸²è½¬æ¢ä¸ºæ•´æ•°,å¦‚æžœä¸ç»™å‡ºå‚æ•°ï¼Œåˆ™è¿”å›ž0
+complex(r=0.0, i=0.0)            ç”¨æ•°å­—åˆ›å»ºä¸€ä¸ªå¤æ•°(å®žéƒ¨ä¸ºr,è™šéƒ¨ä¸ºi)
+bool(x)                                   ç”¨xåˆ›å»ºä¸€ä¸ªå¸ƒå°”å€¼(True/False)
 
+é¢„ç½®(å†…å»º)çš„æ•°å€¼åž‹å‡½æ•°
+å‡½æ•°                                             è¯´æ˜Ž
+abs(x)                                       å–xçš„ç»å¯¹å€¼
+round(number[, ndigits])             å¯¹æ•°å€¼è¿›è¡Œå››èˆäº”å…¥, ndigitsæ˜¯å°æ•°å‘å³å–æ•´çš„ä½æ•°, è´Ÿæ•°è¡¨ç¤ºå‘å·¦å–æ•´
+pow(x, y, z=None)                      ç›¸å½“äºŽx ** y æˆ– x**y % z
 
+help()                                        æŸ¥çœ‹å‡½æ•°å¸®åŠ©ï¼š
+helpå‡½æ•°
+>>> help(abs)  # æŸ¥çœ‹abså‡½æ•°çš„å¸®åŠ©
 
-complex(r=0.0, i=0.0)            ÓÃÊý×Ö´´½¨Ò»¸ö¸´Êý(Êµ²¿Îªr,Ðé²¿Îªi)
-bool(x)                                   ÓÃx´´½¨Ò»¸ö²¼¶ûÖµ(True/False)
-Ô¤ÖÃ(ÄÚ½¨)µÄÊýÖµÐÍº¯Êý
-º¯Êý                                             ËµÃ÷
-abs(x)                                       È¡xµÄ¾ø¶ÔÖµ
-round(number[, ndigits])             ¶ÔÊýÖµ½øÐÐËÄÉáÎåÈë, ndigitsÊÇÐ¡ÊýÏòÓÒÈ¡ÕûµÄÎ»Êý, ¸ºÊý±íÊ¾Ïò×óÈ¡Õû
-pow(x, y, z=None)                      Ïàµ±ÓÚx ** y »ò x**y % z
-help()                                        ²é¿´º¯Êý°ïÖú£º
+åŸºæœ¬è¾“å…¥è¾“å‡º
+åŸºæœ¬è¾“å…¥ input
+å‡½æ•° è¯´æ˜Ž
+input('æç¤ºå­—ç¬¦ä¸²')                è¿”å›žè¾“å…¥çš„å­—ç¬¦ä¸²(ä»…Python3,'æç¤ºå­—ç¬¦ä¸²' å¯ä»¥æ˜¯ç©º)
 
-helpº¯Êý
->>> help(abs)  # ²é¿´absº¯ÊýµÄ°ïÖú
+åŸºæœ¬è¾“å‡ºå‡½æ•° print
+å‡½æ•°                                                                            è¯´æ˜Ž
+print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False)    å°†ä¸€ç³»åˆ—çš„å€¼ä»¥å­—ç¬¦ä¸²å½¢å¼è¾“å‡ºåˆ°æ ‡å‡†è¾“å‡ºè®¾å¤‡ä¸Š,é»˜è®¤ä¸ºç»ˆç«¯.
 
-»ù±¾ÊäÈëÊä³ö
-»ù±¾ÊäÈë input
-º¯Êý ËµÃ÷
-input('ÌáÊ¾×Ö·û´®')                ·µ»ØÊäÈëµÄ×Ö·û´®(½öPython3,'ÌáÊ¾×Ö·û´®' ¿ÉÒÔÊÇ¿Õ)
-»ù±¾Êä³öº¯Êý print
-º¯Êý ËµÃ÷
-print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False) ½«Ò»ÏµÁÐµÄÖµÒÔ×Ö·û´®ÐÎÊ½Êä³öµ½
-±ê×¼Êä³öÉè±¸ÉÏ,Ä¬ÈÏÎªÖÕ¶Ë.
-²ÎÊýÑ¡Ïî
+å‚æ•°é€‰é¡¹
+é€‰é¡¹çš„å…³é”®å­—å‚æ•°ä¸º:
+sep:             ä¸¤ä¸ªå€¼ä¹‹é—´çš„åˆ†éš”ç¬¦ï¼Œé»˜è®¤ä¸ºä¸€ä¸ªç©ºæ ¼' '
+end:             è¾“å‡ºå®Œæ¯•åŽåœ¨æµæœ«å°¾è‡ªåŠ¨è¿½åŠ ä¸€ä¸ªå­—ç¬¦ä¸²,é»˜è®¤ä¸ºæ¢è¡Œç¬¦'\n'
+file:             æµå¯¹è±¡ï¼Œé»˜è®¤ä¸ºsys.stdout.
+flush:           æ˜¯å¦ç«‹å³å°†æµè¿›è¡Œè¾“å‡º
 
-Ñ¡ÏîµÄ¹Ø¼ü×Ö²ÎÊýÎª:
-sep:             Á½¸öÖµÖ®¼äµÄ·Ö¸ô·û£¬Ä¬ÈÏÎªÒ»¸ö¿Õ¸ñ' '
-end:             Êä³öÍê±ÏºóÔÚÁ÷Ä©Î²×Ô¶¯×·¼ÓÒ»¸ö×Ö·û´®,Ä¬ÈÏÎª»»ÐÐ·û'\n'
-file:             Á÷¶ÔÏó£¬Ä¬ÈÏÎªsys.stdout.
-flush:           ÊÇ·ñÁ¢¼´½«Á÷½øÐÐÊä³ö
+å­—ç¬¦ä¸²ç¼–ç è½¬æ¢å‡½æ•°
+å‡½æ•°                   è¯´æ˜Ž
+ord(c)            è¿”å›žä¸€ä¸ªå­—ç¬¦çš„Unicodeå€¼
+chr(i)             è¿”å›žiè¿™ä¸ªå€¼æ‰€å¯¹åº”çš„ å­—ç¬¦
 
-×Ö·û´®±àÂë×ª»»º¯Êý
-º¯Êý                   ËµÃ÷
-ord(c)            ·µ»ØÒ»¸ö×Ö·ûµÄUnicodeÖµ
-chr(i)             ·µ»ØiÕâ¸öÖµËù¶ÔÓ¦µÄ ×Ö·û
-ÕûÊý×ª»»Îª×Ö·û´®º¯Êý
-º¯Êý ËµÃ÷
-hex(i)       ½«ÕûÊý×ª»»ÎªÊ®Áù½øÖÆ×Ö·û´®
-oct(i)       ½«ÕûÊý×ª»»Îª°Ë½øÖÆ×Ö·û´®
-bin(i)       ½«ÕûÊý×ª»»Îª¶þ½øÖÆ×Ö·û´®
-×Ö·û´®¹¹Ôìº¯Êý
-º¯Êý                   ËµÃ÷
-str(obj='')        ½«¶ÔÏó×ª»»Îª×Ö·û´®
-range()             º¯Êý
-º¯Êý                                                           ÒâÒå
-range(stop)                               ´ÓÁã¿ªÊ¼£¬Ã¿´ÎÉú³ÉÒ»¸öÕûÊýºó¼Ó1²Ù×÷£¬Ö±µ½stopÎªÖ¹£¨²»°üº¬stop)
-range(start,stop[,step])              ´Óstart¿ªÊ¼£¬Ã¿´ÎÉú³ÉÒ»¸öÕûÊýºóÒÆ¶¯step£¬Ö±µ½stopÎªÖ¹£¨²»°üº¬stop£¬ÇÒstep¿ÉÒÔÊÇ¸ºÊý)
-ÁÐ±íµÄ¹¹Ôìº¯Êý
-º¯Êý ËµÃ÷
-list() #                        Éú³ÉÒ»¸ö¿ÕµÄÁÐ±í µÈÍ¬ÓÚ []
-list(iterable) #             ÓÃ¿Éµü´ú¶ÔÏó´´½¨Ò»¸öÁÐ±í
-Ôª×éµÄ¹¹Ôì(´´½¨)º¯Êýtuple
-º¯Êý ËµÃ÷
-tuple()                        Éú³ÉÒ»¸ö¿ÕµÄÔª×é£¬µÈÍ¬ÓÚ ()
-tuple(iterable)               ÓÃ¿Éµü´ú¶ÔÏóÉú³ÉÒ»¸öÔª×é
-ÐòÁÐÏà¹Øº¯Êý
-º¯Êý ËµÃ÷
-len(seq)                 ·µ»ØÐòÁÐµÄ³¤¶È
-max(x)                   ·µ»ØÐòÁÐµÄ×î´óÖµµÄÔªËØ
-min(x)                    ·µ»ØÐòÁÐµÄ×îÐ¡ÖµµÄÔªËØ
-sum(x)                   ·µ»ØÐòÁÐÖÐËùÓÐÔªËØµÄºÍ
-any(x)                    ÕæÖµ²âÊÔ£¬Èç¹ûÁÐ±íÖÐÆäÖÐÒ»¸öÖµÎªÕæÖµÔò·µ»ØTrue
-all(x)                      ÕæÖµ²âÊÔ£¬Èç¹ûÁÐ±íÖÐËùÓÐÖµÎªÕæÖµÔò·µ»ØTrue
-reversed(seq)         ·µ»Ø·´ÏòË³ÐòµÄµü´úÆ÷¶ÔÏó
-sorted(iterable, key=None, reverse=False)                 ·µ»ØÒÑÅÅÐòµÄÁÐ±í
-dictµÄ¹¹Ôì(´´½¨)º¯Êýdict
-º¯Êý ËµÃ÷
-dict() #                           Éú³ÉÒ»¸ö¿ÕµÄ×Öµä µÈÍ¬ÓÚ {}
-dict(iterable)                   ÓÃ¿Éµü´ú¶ÔÏó³õÊ¼»¯Ò»¸ö×Öµä
-dict(**kwargs)                ÃüÃû¹Ø¼ü×Ö´«²ÎÐÎÊ½Éú³ÉÒ»¸ö×Öµä
-¼¯ºÏ¹¹Ôì(´´½¨)º¯Êý set
-º¯Êý ËµÃ÷
-set()                                 ´´½¨Ò»¸ö¿ÕµÄ¼¯ºÏ¶ÔÏó(²»ÄÜÓÃ{}À´´´½¨¿Õ¼¯ºÏ)
-set(iterable)                      ÓÃ¿Éµü´ú¶ÔÏó´´½¨Ò»¸öÐÂµÄ¼¯ºÏ¶ÔÏó
-¹Ì¶¨¼¯ºÏ¹¹Ôì(´´½¨)º¯Êý frozenset
-º¯Êý ËµÃ÷
-frozenset()                         ´´½¨Ò»¸ö¿ÕµÄ¹Ì¶¨¼¯ºÏ¶ÔÏó
-frozenset(iterable)                ÓÃ¿Éµü´ú¶ÔÏó´´½¨Ò»¸öÐÂµÄ¹Ì¶¨¼¯ºÏ¶ÔÏó
-globals() / locals() º¯Êý
-º¯Êý                                             ËµÃ÷
-globals()                    ·µ»Øµ±Ç°È«¾Ö×÷ÓÃÓòÄÚ±äÁ¿µÄ×Öµä
-locals()                      ·µ»Øµ±Ç°¾Ö²¿×÷ÓÃÓòÄÚ±äÁ¿µÄ×Öµä
-eval(), exec() º¯Êý
-º¯Êý                                                                            ËµÃ÷
-eval(source, globals=None, locals=None)              °ÑÒ»¸ö×Ö·û´®sourceµ±³ÉÒ»¸ö±í´ïÊ½À´Ö´ÐÐ£¬·µ»Ø±í´ïÊ½Ö´ÐÐºóµÄ½á¹û
-exec(source, globals=None, locals=None)             °ÑÒ»¸ö×Ö·û´®sourceµ±³É³ÌÐòÀ´Ö´ÐÐ£®
-¸ß½×º¯Êý High Order Function
-º¯Êý ËµÃ÷
-map(func, *iterables)        ÓÃº¯ÊýºÍ¶Ô¿Éµü´ú¶ÔÏóÖÐµÄÃ¿Ò»¸öÔªËØ×÷Îª²ÎÊý¼ÆËã³öÐÂµÄ¿Éµü´ú¶ÔÏó,
-                                      µ±×î¶ÌµÄÒ»¸ö¿Éµü´ú¶ÔÏó²»ÔÙÌá¹©Êý¾ÝÊ±´Ë¿Éµü´ú¶ÔÏóÉú³É½áÊø
-filter(function, iterable)              É¸Ñ¡¿Éµü´ú¶ÔÏóiterableÖÐµÄÊý¾Ý,·µ»ØÒ»¸ö¿Éµü´úÆ÷¶ÔÏó£¬´Ë¿Éµü´ú¶ÔÏó
-                                              ½«¶Ôiterable½øÐÐÉ¸Ñ¡.º¯Êýfunction ½«¶ÔiterableÖÐµÄÃ¿¸öÔªËØ½øÐÐÇóÖµ£¬
-                                              ·µ»ØFalseÔò½«´ËÊý¾Ý¶ªÆú£¬·µ»ØTrue£¬Ôò±£Áô´ËÊý¾Ý
-sorted(iterable, key=None, reverse=False)                   ½«Ô­¿Éµü´ú¶ÔÏóµÄÊý¾Ý½øÐÐÅÅÐò£¬Éú³ÉÅÅÐòºóµÄÁÐ±íiterable ¿Éµü´ú¶ÔÏó
-                                                                               key º¯ÊýÊÇÓÃÀ´Ìá¹©Ò»¸öÖµ,Õâ¸öÖµ½«×÷ÎªÅÅÐòµÄÒÀ¾Ýreverse ±êÖ¾ÓÃÀ´Éè
-                                                                                ÖÃÊÇ·ñ½µÐòÅÅÐò
-dirº¯Êý
-º¯Êý                            ËµÃ÷
-dir([¶ÔÏó])                ·µ»ØÒ»¸ö×Ö·û´®ÁÐ±í
-dirº¯Êýº¯ÊýËµÃ÷
+æ•´æ•°è½¬æ¢ä¸ºå­—ç¬¦ä¸²å‡½æ•°
+å‡½æ•°                  è¯´æ˜Ž
+hex(i)       å°†æ•´æ•°è½¬æ¢ä¸ºåå…­è¿›åˆ¶å­—ç¬¦ä¸²
+oct(i)       å°†æ•´æ•°è½¬æ¢ä¸ºå…«è¿›åˆ¶å­—ç¬¦ä¸²
+bin(i)       å°†æ•´æ•°è½¬æ¢ä¸ºäºŒè¿›åˆ¶å­—ç¬¦ä¸²
 
-    Èç¹ûÃ»ÓÐ²ÎÊýµ÷ÓÃ£¬Ôò·µ»Øµ±Ç°×÷ÓÃÓòÄÚµÄËùÓÐ±äÁ¿µÄÁÐ±í
-    Èç¹û¸ø¶¨Ò»¸ö¶ÔÏó×÷ÓÃ²ÎÊý£¬Ôò·µ»ØÕâ¸ö¶ÔÏóµÄËùÓÐ±äÁ¿µÄÁÐ±í
-        ¶ÔÓÚÒ»¸öÄ£¿é,·µ»ØÕâ¸öÄ£¿éµÄÈ«²¿±äÁ¿
-        ¶ÔÓÚÒ»¸öÀà¶ÔÏó£¬·µ»ØÀà¶ÔÏóµÄËùÓÐ±äÁ¿£¬²¢µÝ¹éµÄ»ùÀà¶ÔÏóµÄËùÓÐ±äÁ¿
-        ¶ÔÓÚÆäËü¶ÔÏó·µ»ØËùÓÐ±äÁ¿¡¢Àà±äÁ¿ºÍ»ùÀà±äÁ¿
+å­—ç¬¦ä¸²æž„é€ å‡½æ•°
+å‡½æ•°                   è¯´æ˜Ž
+str(obj='')        å°†å¯¹è±¡è½¬æ¢ä¸ºå­—ç¬¦ä¸²
+range()             å‡½æ•°
+å‡½æ•°                                                           æ„ä¹‰
+range(stop)                               ä»Žé›¶å¼€å§‹ï¼Œæ¯æ¬¡ç”Ÿæˆä¸€ä¸ªæ•´æ•°åŽåŠ 1æ“ä½œï¼Œç›´åˆ°stopä¸ºæ­¢ï¼ˆä¸åŒ…å«stop)
+range(start,stop[,step])              ä»Žstartå¼€å§‹ï¼Œæ¯æ¬¡ç”Ÿæˆä¸€ä¸ªæ•´æ•°åŽç§»åŠ¨stepï¼Œç›´åˆ°stopä¸ºæ­¢ï¼ˆä¸åŒ…å«stopï¼Œä¸”stepå¯ä»¥æ˜¯è´Ÿæ•°)
 
-µü´úÆ÷º¯ÊýiterºÍnext
-º¯Êý                                          ËµÃ÷
-iter(iterable)              ´Ó¿Éµü´ú¶ÔÏóÖÐ·µ»ØÒ»¸öµü´úÆ÷,iterable±ØÐëÊÇÄÜÌá¹©Ò»¸öµü´úÆ÷µÄ¶ÔÏó
-next(iterator)             ´Óµü´úÆ÷iteratorÖÐ»ñÈ¡Ò»ÏÂ¸ö¼ÇÂ¼£¬Èç¹ûÎÞ·¨»ñÈ¡Ò»ÏÂÌõ¼ÇÂ¼£¬Ôò´¥·¢ StopIteration Òì³£
-µü´ú¹¤¾ßº¯Êý
-º¯Êý                                                         ËµÃ÷
-zip(iter1 [,iter2 [...]])                      ·µ»ØÒ»¸özip¶ÔÏó, ´Ë¶ÔÏóÓÃÓÚÉú³ÉÒ»¸öÔª×é£¬´ËÔª×éµÄ¸öÊýÓÉ×îÐ¡µÄ¿Éµü´ú¶ÔÏó¾ö¶¨
-enumerate(iterable[, start])             Éú³É´øË÷ÒýµÄÃ¶¾Ù¶ÔÏó£¬·µ»ØµÄµü´úÀàÐÍÎªË÷Òý-Öµ¶Ô(index-value)¶Ô,Ä¬ÈÏË÷Òý´ÓÁã
-                                                    ¿ªÊ¼£¬Ò²¿ÉÒÔÓÃstartÖ¸¶¨
-×Ö½Ú´®µÄÉú³Éº¯Êý bytes
-º¯Êý                                                     ËµÃ÷
-bytes()                                           Éú³ÉÒ»¸ö¿ÕµÄ×Ö½Ú´® µÈÍ¬ÓÚ b''
-bytes(ÕûÐÍ¿Éµü´ú¶ÔÏó)                     ÓÃ¿Éµü´ú¶ÔÏó³õÊ¼»¯Ò»¸ö×Ö½Ú´®
-bytes(ÕûÊýn)                                   Éú³Én¸öÖµÎª0µÄ×Ö½Ú´®
-bytes(×Ö·û´®, encoding='utf-8')         ÓÃ×Ö·û´®µÄ×ª»»±àÂëÉú³ÉÒ»¸ö×Ö½Ú´®
-×Ö½ÚÊý×éµÄÉú³Éº¯Êý bytearray
-º¯Êý                                                                ËµÃ÷
-bytearray()                                        ´´½¨¿ÕµÄ×Ö½ÚÊý×é
-bytearray(ÕûÊý)                                  ÓÃ¿Éµü´ú¶ÔÏó³õÊ¼»¯Ò»¸ö×Ö½ÚÊý×é
-bytearray(ÕûÐÍ¿Éµü´ú¶ÔÏó)                 Éú³Én¸öÖµÎª0µÄ×Ö½ÚÊý×é
-bytearray(×Ö·û´®, encoding='utf-8')     ÓÃ×Ö·û´®µÄ×ª»»±àÂëÉú³ÉÒ»¸ö×Ö½ÚÊý×é
-ÎÄ¼þµÄ´ò¿ªº¯Êý
-×Ö·û                                                º¬Òå
-open(file, mode='rt')                  ÓÃÓÚ´ò¿ªÒ»¸öÎÄ¼þ£¬·µ»Ø´ËÎÄ¼þÁ÷¶ÔÏó.
-                                          Èç¹û´ò¿ªÎÄ¼þÊ§°Ü£¬Ôò»á´¥·¢OSError ´íÎó!
-                                        Èç¹ûÒª´ò¿ªµÄÎÄ¼þ²»´æÔÚ£¬Ôò»á´¥·¢FileNotFoundError ´íÎó!
-mode Ä£Ê½×Ö·ûµÄº¬Òå
-×Ö·û                 º¬Òå
-'r'                    ÒÔÖ»¶Á·½Ê½´ò¿ª(Ä¬ÈÏ)
-'w'                ÒÔÖ»Ð´·½Ê½´ò¿ª£¬É¾³ýÔ­ÓÐÎÄ¼þÄÚÈÝ(Èç¹ûÎÄ¼þ²»´æÔÚ£¬Ôò´´½¨¸ÃÎÄ¼þ²¢ÒÔÖ»Ð´·½Ê½´ò¿ª)
-'x'                  ´´½¨Ò»¸öÐÂÎÄ¼þ, ²¢ÒÔÐ´Ä£Ê½´ò¿ªÕâ¸öÎÄ¼þ,Èç¹ûÎÄ¼þ´æÔÚÔò»á²úÉú"FileExistsError"´íÎó
-'a'                  ÒÔÖ»Ð´ÎÄ¼þ´ò¿ªÒ»¸öÎÄ¼þ£¬Èç¹ûÓÐÔ­ÎÄ¼þÔò×·¼Óµ½ÎÄ¼þÄ©Î²
-'b'                 ÓÃ¶þ½øÖÆÄ£Ê½´ò¿ª
-'t'                ÎÄ±¾ÎÄ¼þÄ£Ê½´ò¿ª (Ä¬ÈÏ)
-'+'              Îª¸üÐÂÄÚÈÝ´ò¿ªÒ»¸ö´ÅÅÌÎÄ¼þ (¿É¶Á¿ÉÐ´)
+åˆ—è¡¨çš„æž„é€ å‡½æ•°
+å‡½æ•°                                  è¯´æ˜Ž
+list() #                        ç”Ÿæˆä¸€ä¸ªç©ºçš„åˆ—è¡¨ ç­‰åŒäºŽ []
+list(iterable) #             ç”¨å¯è¿­ä»£å¯¹è±¡åˆ›å»ºä¸€ä¸ªåˆ—è¡¨
 
-    È±Ê¡Ä£Ê½ÊÇ 'rt'
-    'w+b'              ¿ÉÒÔÊµÏÖ¶þ½øÖÆËæ»ú¶ÁÐ´£¬µ±´ò¿ªÎÄ¼þÊ±£¬ÎÄ¼þÄÚÈÝ½«±»ÇåÁã
-    'r+b'            ÒÔ¶þ½øÖÆ¶ÁºÍ¸üÐÂÄ£Ê½´ò¿ªÎÄ¼þ,´ò¿ªÎÄ¼þÊ±²»»áÇå¿ÕÎÄ¼þÄÚÈÝ
-    'r+'            ÒÔÎÄ±¾Ä£Ê½¶ÁºÍ¸üÐÂÄ£Ê½´ò¿ªÎÄ¼þ,´ò¿ªÎÄ¼þÊ±²»»áÇå¿ÕÎÄ¼þÄÚÈÝ
+å…ƒç»„çš„æž„é€ (åˆ›å»º)å‡½æ•°tuple
+å‡½æ•°                               è¯´æ˜Ž
+tuple()                        ç”Ÿæˆä¸€ä¸ªç©ºçš„å…ƒç»„ï¼Œç­‰åŒäºŽ ()
+tuple(iterable)               ç”¨å¯è¿­ä»£å¯¹è±¡ç”Ÿæˆä¸€ä¸ªå…ƒç»„
 
-ÓÃÓÚÀàÐÍÅÐ¶ÏµÄº¯Êý
-º¯Êý                                                               ËµÃ÷
-isinstance(obj, class_or_tuple)              ·µ»ØÕâ¸ö¶ÔÏóobj ÊÇ·ñÊÇ Ä³¸öÀàµÄ¶ÔÏó,»òÕßÄ³Ð©ÀàÖÐ
-                                                         µÄÒ»¸öÀàµÄ¶ÔÏó,Èç¹ûÊÇ·µ»ØTrue,·ñÔò·µ»ØFalse
-type(obj)                  ·µ»Ø¶ÔÏóµÄÀàÐÍ
-superº¯Êý
-º¯Êý                                         ËµÃ÷
-super(type, obj)                  ·µ»Ø°ó¶¨³¬ÀàµÄÊµÀý(ÒªÇóobj±ØÐëÎªtypeÀàÐÍµÄÊµÀý)
-super()                           ·µ»Ø°ó¶¨³¬ÀàµÄÊµÀý,µÈÍ¬ÓÚ:super(class, ÊµÀý·½·¨µÄµÚÒ»¸ö²ÎÊý)£¬±ØÐëÓÃÔÚ·½·¨ÄÚ
-ÓÃÓÚÀàµÄº¯Êý
-º¯Êý                                                      ËµÃ÷
-issubclass(cls, class_or_tuple)              ÅÐ¶ÏÒ»¸öÀàÊÇ·ñ¼Ì³Ð×ÔÆäËüµÄÀà,Èç¹û´ËÀàclsÊÇclass »ò
-                                                         tupleÖÐµÄÒ»¸öÅÉÉú×ÓÀàÔò·µ»ØTrue,·ñÔò·µ»ØFalse
-¶ÔÏóµÄÊôÐÔ¹ÜÀíº¯Êý
-º¯Êý                                                            ËµÃ÷
-getattr(obj, name[, default])            ´ÓÒ»¸ö¶ÔÏóµÃµ½¶ÔÏóµÄÊôÐÔ£»getattr(x, 'y') µÈÍ¬ÓÚx.y; µ±ÊôÐÔ²»´æÔÚ
+åºåˆ—ç›¸å…³å‡½æ•°
+å‡½æ•°                              è¯´æ˜Ž
+len(seq)                 è¿”å›žåºåˆ—çš„é•¿åº¦
+max(x)                   è¿”å›žåºåˆ—çš„æœ€å¤§å€¼çš„å…ƒç´ 
+min(x)                    è¿”å›žåºåˆ—çš„æœ€å°å€¼çš„å…ƒç´ 
+sum(x)                   è¿”å›žåºåˆ—ä¸­æ‰€æœ‰å…ƒç´ çš„å’Œ
+any(x)                    çœŸå€¼æµ‹è¯•ï¼Œå¦‚æžœåˆ—è¡¨ä¸­å…¶ä¸­ä¸€ä¸ªå€¼ä¸ºçœŸå€¼åˆ™è¿”å›žTrue
+all(x)                      çœŸå€¼æµ‹è¯•ï¼Œå¦‚æžœåˆ—è¡¨ä¸­æ‰€æœ‰å€¼ä¸ºçœŸå€¼åˆ™è¿”å›žTrue
+reversed(seq)           è¿”å›žåå‘é¡ºåºçš„è¿­ä»£å™¨å¯¹è±¡
+sorted(iterable, key=None, reverse=False)                 è¿”å›žå·²æŽ’åºçš„åˆ—è¡¨
 
-                                                     Ê±,Èç¹û¸ø³ödefault²ÎÊý,Ôò·µ»Ødefault,Èç¹ûÃ»ÓÐ¸ø³ödefault Ôò²úÉúÒ»                                                          ¸öAttributeError´íÎó
+dictçš„æž„é€ (åˆ›å»º)å‡½æ•°dict
+å‡½æ•°                                    è¯´æ˜Ž
+dict() #                           ç”Ÿæˆä¸€ä¸ªç©ºçš„å­—å…¸ ç­‰åŒäºŽ {}
+dict(iterable)                   ç”¨å¯è¿­ä»£å¯¹è±¡åˆå§‹åŒ–ä¸€ä¸ªå­—å…¸
+dict(**kwargs)                å‘½åå…³é”®å­—ä¼ å‚å½¢å¼ç”Ÿæˆä¸€ä¸ªå­—å…¸
 
-hasattr(obj, name)                           ÓÃ¸ø¶¨µÄname·µ»Ø¶ÔÏóobjÊÇ·ñÓÐ´ËÊôÐÔ,´ËÖÖ×ö·¨¿ÉÒÔ±ÜÃâÔÚ                                                                  getattr(obj, name)Ê±Òý·¢´íÎó
-setattr(obj, name, value)                       ¸ø¶ÔÏóobjµÄÃûÎªnameµÄÊôÐÔÉèÖÃÏàÓ¦µÄÖµvalue, set(x, 'y', v) µÈÍ¬                                                            ÓÚ x.y = v
-delattr(obj, name)                         É¾³ý¶ÔÏóobjÖÐµÄnameÊôÐÔ, delattr(x, 'y') µÈÍ¬ÓÚ del x.y
+é›†åˆæž„é€ (åˆ›å»º)å‡½æ•° set
+å‡½æ•°                                         è¯´æ˜Ž
+set()                                 åˆ›å»ºä¸€ä¸ªç©ºçš„é›†åˆå¯¹è±¡(ä¸èƒ½ç”¨{}æ¥åˆ›å»ºç©ºé›†åˆ)
+set(iterable)                      ç”¨å¯è¿­ä»£å¯¹è±¡åˆ›å»ºä¸€ä¸ªæ–°çš„é›†åˆå¯¹è±¡
+
+å›ºå®šé›†åˆæž„é€ (åˆ›å»º)å‡½æ•° frozenset
+å‡½æ•°                                         è¯´æ˜Ž
+frozenset()                         åˆ›å»ºä¸€ä¸ªç©ºçš„å›ºå®šé›†åˆå¯¹è±¡
+frozenset(iterable)                ç”¨å¯è¿­ä»£å¯¹è±¡åˆ›å»ºä¸€ä¸ªæ–°çš„å›ºå®šé›†åˆå¯¹è±¡
+
+globals() / locals() å‡½æ•°
+å‡½æ•°                                             è¯´æ˜Ž
+globals()                    è¿”å›žå½“å‰å…¨å±€ä½œç”¨åŸŸå†…å˜é‡çš„å­—å…¸
+locals()                      è¿”å›žå½“å‰å±€éƒ¨ä½œç”¨åŸŸå†…å˜é‡çš„å­—å…¸
+
+eval(), exec() å‡½æ•°
+å‡½æ•°                                                                            è¯´æ˜Ž
+eval(source, globals=None, locals=None)              æŠŠä¸€ä¸ªå­—ç¬¦ä¸²sourceå½“æˆä¸€ä¸ªè¡¨è¾¾å¼æ¥æ‰§è¡Œï¼Œè¿”å›žè¡¨è¾¾å¼æ‰§è¡ŒåŽçš„ç»“æžœ
+exec(source, globals=None, locals=None)             æŠŠä¸€ä¸ªå­—ç¬¦ä¸²sourceå½“æˆç¨‹åºæ¥æ‰§è¡Œï¼Ž
+
+é«˜é˜¶å‡½æ•° High Order Function
+å‡½æ•°                                            è¯´æ˜Ž
+map(func, *iterables)        ç”¨å‡½æ•°å’Œå¯¹å¯è¿­ä»£å¯¹è±¡ä¸­çš„æ¯ä¸€ä¸ªå…ƒç´ ä½œä¸ºå‚æ•°è®¡ç®—å‡ºæ–°çš„å¯è¿­ä»£å¯¹è±¡,å½“æœ€çŸ­çš„ä¸€ä¸ªå¯è¿­ä»£å¯¹è±¡ä¸å†æä¾›æ•°æ®æ—¶æ­¤å¯è¿­ä»£å¯¹è±¡ç”Ÿæˆç»“æŸ
+filter(function, iterable)              ç­›é€‰å¯è¿­ä»£å¯¹è±¡iterableä¸­çš„æ•°æ®,è¿”å›žä¸€ä¸ªå¯è¿­ä»£å™¨å¯¹è±¡ï¼Œæ­¤å¯è¿­ä»£å¯¹è±¡å°†å¯¹iterableè¿›è¡Œç­›é€‰.å‡½æ•°function å°†å¯¹iterableä¸­çš„æ¯ä¸ªå…ƒç´ è¿›è¡Œæ±‚å€¼ï¼Œè¿”å›žFalseåˆ™å°†æ­¤æ•°æ®ä¸¢å¼ƒï¼Œè¿”å›žTrueï¼Œåˆ™ä¿ç•™æ­¤æ•°æ®
+sorted(iterable, key=None, reverse=False)                   å°†åŽŸå¯è¿­ä»£å¯¹è±¡çš„æ•°æ®è¿›è¡ŒæŽ’åºï¼Œç”ŸæˆæŽ’åºåŽçš„åˆ—è¡¨iterable å¯è¿­ä»£å¯¹è±¡key å‡½æ•°æ˜¯ç”¨æ¥æä¾›ä¸€ä¸ªå€¼,è¿™ä¸ªå€¼å°†ä½œä¸ºæŽ’åºçš„ä¾æ®reverse æ ‡å¿—ç”¨æ¥è®¾ç½®æ˜¯å¦é™åºæŽ’åº
+
+dirå‡½æ•°
+å‡½æ•°                            è¯´æ˜Ž
+dir([å¯¹è±¡])                è¿”å›žä¸€ä¸ªå­—ç¬¦ä¸²åˆ—è¡¨
+dirå‡½æ•°å‡½æ•°è¯´æ˜Ž
+å¦‚æžœæ²¡æœ‰å‚æ•°è°ƒç”¨ï¼Œåˆ™è¿”å›žå½“å‰ä½œç”¨åŸŸå†…çš„æ‰€æœ‰å˜é‡çš„åˆ—è¡¨
+å¦‚æžœç»™å®šä¸€ä¸ªå¯¹è±¡ä½œç”¨å‚æ•°ï¼Œåˆ™è¿”å›žè¿™ä¸ªå¯¹è±¡çš„æ‰€æœ‰å˜é‡çš„åˆ—è¡¨
+å¯¹äºŽä¸€ä¸ªæ¨¡å—,è¿”å›žè¿™ä¸ªæ¨¡å—çš„å…¨éƒ¨å˜é‡
+å¯¹äºŽä¸€ä¸ªç±»å¯¹è±¡ï¼Œè¿”å›žç±»å¯¹è±¡çš„æ‰€æœ‰å˜é‡ï¼Œå¹¶é€’å½’çš„åŸºç±»å¯¹è±¡çš„æ‰€æœ‰å˜é‡
+å¯¹äºŽå…¶å®ƒå¯¹è±¡è¿”å›žæ‰€æœ‰å˜é‡ã€ç±»å˜é‡å’ŒåŸºç±»å˜é‡
+
+è¿­ä»£å™¨å‡½æ•°iterå’Œnext
+å‡½æ•°                                          è¯´æ˜Ž
+iter(iterable)              ä»Žå¯è¿­ä»£å¯¹è±¡ä¸­è¿”å›žä¸€ä¸ªè¿­ä»£å™¨,iterableå¿…é¡»æ˜¯èƒ½æä¾›ä¸€ä¸ªè¿­ä»£å™¨çš„å¯¹è±¡
+next(iterator)             ä»Žè¿­ä»£å™¨iteratorä¸­èŽ·å–ä¸€ä¸‹ä¸ªè®°å½•ï¼Œå¦‚æžœæ— æ³•èŽ·å–ä¸€ä¸‹æ¡è®°å½•ï¼Œåˆ™è§¦å‘ StopIteration å¼‚å¸¸
+
+è¿­ä»£å·¥å…·å‡½æ•°
+å‡½æ•°                                                         è¯´æ˜Ž
+zip(iter1 [,iter2 [...]])                      è¿”å›žä¸€ä¸ªzipå¯¹è±¡, æ­¤å¯¹è±¡ç”¨äºŽç”Ÿæˆä¸€ä¸ªå…ƒç»„ï¼Œæ­¤å…ƒç»„çš„ä¸ªæ•°ç”±æœ€å°çš„å¯è¿­ä»£å¯¹è±¡å†³å®š
+enumerate(iterable[, start])             ç”Ÿæˆå¸¦ç´¢å¼•çš„æžšä¸¾å¯¹è±¡ï¼Œè¿”å›žçš„è¿­ä»£ç±»åž‹ä¸ºç´¢å¼•-å€¼å¯¹(index-value)å¯¹,é»˜è®¤ç´¢å¼•ä»Žé›¶å¼€å§‹ï¼Œä¹Ÿå¯ä»¥ç”¨startæŒ‡å®š
+
+å­—èŠ‚ä¸²çš„ç”Ÿæˆå‡½æ•° bytes
+å‡½æ•°                                                     è¯´æ˜Ž
+bytes()                                           ç”Ÿæˆä¸€ä¸ªç©ºçš„å­—èŠ‚ä¸² ç­‰åŒäºŽ b''
+bytes(æ•´åž‹å¯è¿­ä»£å¯¹è±¡)                     ç”¨å¯è¿­ä»£å¯¹è±¡åˆå§‹åŒ–ä¸€ä¸ªå­—èŠ‚ä¸²
+bytes(æ•´æ•°n)                                   ç”Ÿæˆnä¸ªå€¼ä¸º0çš„å­—èŠ‚ä¸²
+bytes(å­—ç¬¦ä¸², encoding='utf-8')         ç”¨å­—ç¬¦ä¸²çš„è½¬æ¢ç¼–ç ç”Ÿæˆä¸€ä¸ªå­—èŠ‚ä¸²
+
+å­—èŠ‚æ•°ç»„çš„ç”Ÿæˆå‡½æ•° bytearray
+å‡½æ•°                                                       è¯´æ˜Ž
+bytearray()                                        åˆ›å»ºç©ºçš„å­—èŠ‚æ•°ç»„
+bytearray(æ•´æ•°)                                  ç”¨å¯è¿­ä»£å¯¹è±¡åˆå§‹åŒ–ä¸€ä¸ªå­—èŠ‚æ•°ç»„
+bytearray(æ•´åž‹å¯è¿­ä»£å¯¹è±¡)                 ç”Ÿæˆnä¸ªå€¼ä¸º0çš„å­—èŠ‚æ•°ç»„
+bytearray(å­—ç¬¦ä¸², encoding='utf-8')     ç”¨å­—ç¬¦ä¸²çš„è½¬æ¢ç¼–ç ç”Ÿæˆä¸€ä¸ªå­—èŠ‚æ•°ç»„
+
+æ–‡ä»¶çš„æ‰“å¼€å‡½æ•°
+å­—ç¬¦                                                å«ä¹‰
+open(file, mode='rt')                  ç”¨äºŽæ‰“å¼€ä¸€ä¸ªæ–‡ä»¶ï¼Œè¿”å›žæ­¤æ–‡ä»¶æµå¯¹è±¡.å¦‚æžœæ‰“å¼€æ–‡ä»¶å¤±è´¥ï¼Œåˆ™ä¼šè§¦å‘OSError é”™è¯¯!å¦‚æžœè¦æ‰“å¼€çš„æ–‡ä»¶ä¸å­˜åœ¨ï¼Œåˆ™ä¼šè§¦å‘FileNotFoundError é”™è¯¯!
+mode æ¨¡å¼å­—ç¬¦çš„å«ä¹‰
+å­—ç¬¦                 å«ä¹‰
+'r'                    ä»¥åªè¯»æ–¹å¼æ‰“å¼€(é»˜è®¤)
+'w'                ä»¥åªå†™æ–¹å¼æ‰“å¼€ï¼Œåˆ é™¤åŽŸæœ‰æ–‡ä»¶å†…å®¹(å¦‚æžœæ–‡ä»¶ä¸å­˜åœ¨ï¼Œåˆ™åˆ›å»ºè¯¥æ–‡ä»¶å¹¶ä»¥åªå†™æ–¹å¼æ‰“å¼€)
+'x'                  åˆ›å»ºä¸€ä¸ªæ–°æ–‡ä»¶, å¹¶ä»¥å†™æ¨¡å¼æ‰“å¼€è¿™ä¸ªæ–‡ä»¶,å¦‚æžœæ–‡ä»¶å­˜åœ¨åˆ™ä¼šäº§ç”Ÿ"FileExistsError"é”™è¯¯
+'a'                  ä»¥åªå†™æ–‡ä»¶æ‰“å¼€ä¸€ä¸ªæ–‡ä»¶ï¼Œå¦‚æžœæœ‰åŽŸæ–‡ä»¶åˆ™è¿½åŠ åˆ°æ–‡ä»¶æœ«å°¾
+'b'                 ç”¨äºŒè¿›åˆ¶æ¨¡å¼æ‰“å¼€
+'t'                æ–‡æœ¬æ–‡ä»¶æ¨¡å¼æ‰“å¼€ (é»˜è®¤)
+'+'              ä¸ºæ›´æ–°å†…å®¹æ‰“å¼€ä¸€ä¸ªç£ç›˜æ–‡ä»¶ (å¯è¯»å¯å†™)
+
+    ç¼ºçœæ¨¡å¼æ˜¯ 'rt'
+    'w+b'              å¯ä»¥å®žçŽ°äºŒè¿›åˆ¶éšæœºè¯»å†™ï¼Œå½“æ‰“å¼€æ–‡ä»¶æ—¶ï¼Œæ–‡ä»¶å†…å®¹å°†è¢«æ¸…é›¶
+    'r+b'            ä»¥äºŒè¿›åˆ¶è¯»å’Œæ›´æ–°æ¨¡å¼æ‰“å¼€æ–‡ä»¶,æ‰“å¼€æ–‡ä»¶æ—¶ä¸ä¼šæ¸…ç©ºæ–‡ä»¶å†…å®¹
+    'r+'            ä»¥æ–‡æœ¬æ¨¡å¼è¯»å’Œæ›´æ–°æ¨¡å¼æ‰“å¼€æ–‡ä»¶,æ‰“å¼€æ–‡ä»¶æ—¶ä¸ä¼šæ¸…ç©ºæ–‡ä»¶å†…å®¹
+
+ç”¨äºŽç±»åž‹åˆ¤æ–­çš„å‡½æ•°
+å‡½æ•°                                                               è¯´æ˜Ž
+isinstance(obj, class_or_tuple)              è¿”å›žè¿™ä¸ªå¯¹è±¡obj æ˜¯å¦æ˜¯ æŸä¸ªç±»çš„å¯¹è±¡,æˆ–è€…æŸäº›ç±»ä¸­
+                                                         çš„ä¸€ä¸ªç±»çš„å¯¹è±¡,å¦‚æžœæ˜¯è¿”å›žTrue,å¦åˆ™è¿”å›žFalse
+type(obj)                  è¿”å›žå¯¹è±¡çš„ç±»åž‹
+
+superå‡½æ•°
+å‡½æ•°                                         è¯´æ˜Ž
+super(type, obj)                  è¿”å›žç»‘å®šè¶…ç±»çš„å®žä¾‹(è¦æ±‚objå¿…é¡»ä¸ºtypeç±»åž‹çš„å®žä¾‹)
+super()                           è¿”å›žç»‘å®šè¶…ç±»çš„å®žä¾‹,ç­‰åŒäºŽ:super(class, å®žä¾‹æ–¹æ³•çš„ç¬¬ä¸€ä¸ªå‚æ•°)ï¼Œå¿…é¡»ç”¨åœ¨æ–¹æ³•å†…
+
+ç”¨äºŽç±»çš„å‡½æ•°
+å‡½æ•°                                                      è¯´æ˜Ž
+issubclass(cls, class_or_tuple)              åˆ¤æ–­ä¸€ä¸ªç±»æ˜¯å¦ç»§æ‰¿è‡ªå…¶å®ƒçš„ç±»,å¦‚æžœæ­¤ç±»clsæ˜¯class æˆ–
+                                                         tupleä¸­çš„ä¸€ä¸ªæ´¾ç”Ÿå­ç±»åˆ™è¿”å›žTrue,å¦åˆ™è¿”å›žFalse
+                                                         
+å¯¹è±¡çš„å±žæ€§ç®¡ç†å‡½æ•°
+å‡½æ•°                                                            è¯´æ˜Ž
+getattr(obj, name[, default])            ä»Žä¸€ä¸ªå¯¹è±¡å¾—åˆ°å¯¹è±¡çš„å±žæ€§ï¼›getattr(x, 'y') ç­‰åŒäºŽx.y; å½“å±žæ€§ä¸å­˜åœ¨æ—¶,å¦‚æžœç»™å‡ºdefaultå‚æ•°,åˆ™è¿”å›žä¸ªAttributeErroré”™è¯¯
+
+hasattr(obj, name)                           ç”¨ç»™å®šçš„nameè¿”å›žå¯¹è±¡objæ˜¯å¦æœ‰æ­¤å±žæ€§,æ­¤ç§åšæ³•å¯ä»¥é¿å…åœ¨getattr(obj, name)æ—¶å¼•å‘é”™è¯¯
+setattr(obj, name, value)                       ç»™å¯¹è±¡objçš„åä¸ºnameçš„å±žæ€§è®¾ç½®ç›¸åº”çš„å€¼value, set(x, 'y', v) ç­‰åŒäºŽ x.y = v
+delattr(obj, name)                         åˆ é™¤å¯¹è±¡objä¸­çš„nameå±žæ€§, delattr(x, 'y') ç­‰åŒäºŽ del x.y
