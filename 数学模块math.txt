@@ -1,0 +1,32 @@
+数学模块 math
+
+    模块名: math
+    注：
+        linux下为内建模块
+        Mac OS下为标准库模块
+
+数学模块用法：
+
+import math
+# 或
+from math import *
+
+变量                                  描述
+math.e                          自然对数的底e
+math.pi                          圆周率pi
+函数名                                 描述
+math.ceil(x)               对x向上取整，比如x=1.2，返回2
+math.floor(x)             对x向下取整，比如x=1.2，返回1
+math.sqrt(x)              返回x的平方根
+math.factorial(x)        求x的阶乘
+math.log(x[, base])    返回以base为底x的对数, 如果不给出base,则以自然对数e为底
+math.log10(x)            求以10为底x的对数
+math.pow(x, y)          返回 x**y (x的y次方)
+math.fabs(x)              返回浮点数x的绝对值
+角度和弧度degrees 互换 
+math.degree(x)         将弧度x转换为角度
+math.radians(x)         将角度x转换为弧度
+三角函数 
+math.sin(x)                返回x的正弦(x为弧度)
+math.cos(x)               返回x的余弦(x为弧度)
+math.tan(x)               返回x的正切(x为弧度)

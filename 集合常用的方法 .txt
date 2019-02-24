@@ -1,0 +1,17 @@
+Python3 集合中常用的方法
+方法                                                        意义
+S.add(e)                                在集合中添加一个新的元素e；如果元素已经存在，则不添加
+S.remove(e)                        从集合中删除一个元素，如果元素不存在于集合中，则会产生一个KeyError错误
+S.discard(e)                       从集合S中移除一个元素e,在元素e不存在时什么都不做;
+S.clear()                         清空集合内的所有元素
+S.copy()                          将集合进行一次浅拷贝
+S.pop()                              从集合S中删除一个随机元素;如果此集合为空，则引发KeyError异常
+S.update(s2)                       用 S与s2得到的全集更新变量S
+
+S.difference(s2)                  用S - s2 运算，返回存在于在S中，但不在s2中的所有元素的集合
+S.difference_update(s2)      等同于 S = S - s2
+S.intersection(s2)                 等同于 S & s2
+S.intersection_update(s2)       等同于S = S & s2
+S.isdisjoint(s2)                         如果S与s2交集为空返回True,非空则返回False
+S.issubset(s2)                         如果S与s2交集为非空返回True,空则返回False
+S.issuperset(...)                     如果S为s2的子集返回True,否则返回False

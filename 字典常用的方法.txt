@@ -1,0 +1,13 @@
+字典的方法(可能需要重新整理)
+函数                           说明
+D                           代表字典对象 
+D.clear()                        清空字典
+D.pop(key)                      移除键，同时返回此键所对应的值
+D.copy()                           返回字典D的副本,只复制一层(浅拷贝)
+D.update(D2)                      将字典 D2 合并到D中，如果键相同，则此键的值取D2的值作为新值
+D.get(key, default)                  返回键key所对应的值,如果没有此键，则返回default
+
+D.keys()                                返回可迭代的 dict_keys 集合对象
+D.values()                            返回可迭代的 dict_values 值对象
+D.items()                            返回可迭代的 dict_items 对象
+D.fromkeys(seq,value)      创建一个新字典，以序列seq中的元素作为字典的建key,value为字典键值对的值，默认为None               

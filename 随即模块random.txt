@@ -1,0 +1,17 @@
+随机模块 random
+说明：
+random模块是用于模拟或生成随机输出的模块.
+
+import random as R
+
+
+
+R.random()                                  返回一个[0, 1) 之间的随机实数
+
+R.uniform(a,b)                              返回[a,b) 区间内的随机实数
+R.randrange([start,] stop[, step])   返回range(start,stop,step)中的随机数
+R.choice(seq)                                从序列中返回随意元素
+R.shuffle(seq[, random])               随机指定序列的顺序(乱序序列）
+R.sample(seq,n)                           从序列中选择n个随机且不重复的元素
+R.getrandbits(nbit)                        以长整型的形式返回用nbit位来表示的随机数
+R.seed(a=None)                           用给定的数a设置随机种子,不给参数a则用当前时间设置随机种子

@@ -1,0 +1,22 @@
+Python3中常用的列表方法（method)
+
+
+
+    见:help(list)
+方法                                            意义
+L.index(v [, begin[, end]])                返回对应元素的索引下标, begin为开始索引，end为结束索引,
+
+                                                     当 value 不存在时触发ValueError错误
+
+L.insert(index, obj)                             将某个元素插放到列表中指定的位置
+L.count(x)                                            返回列表中元素的个数
+L.remove(x)                                       从列表中删除第一次出现在列表中的值
+L.copy()                                         复制此列表（只复制一层，不会复制深层对象)
+L.append(x)                                 向列表中追加单个元素
+L.extend(lst)                                 向列表追加另一个列表
+L.clear()                                         清空列表,等同于 L[:] = []
+
+L.sort(reverse=False)                       将列表中的元素进行排序，默认顺序按值的小到大的顺序排列
+
+L.reverse()                                   列表的反转，用来改变原列表的先后顺序
+L.pop([index])                            删除索引对应的元素，如果不加索引，默认删除最后元素，同时返回删除                                                  元素的引用关系

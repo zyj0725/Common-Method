@@ -1,0 +1,66 @@
+字符串中反斜杠字符表
+转义格式             意义
+\'                  单引号(')
+\"                 双引号(")
+\\                  反斜杠(\ )
+\n                  换行
+\r                    返回光标至行首
+\f                       换页
+\t                         水平制表符
+\v                            重直制表符
+\b                                倒退
+\0                                  空字符，字符值为零
+\0oo                                 oo为两位八进制表示的字符
+\xXX                                   XX为两位十六进制表示的字符
+\uXXXX                                   Unicode 16的十六进制表示的字符
+\UXXXXXXXX                              Unicode 32的十六进制表示的字符
+
+常用字符串方法
+                                   
+S.isdigit()                        判断字符串中的字符是否全为数字
+S.isalpha()                        判断字符串是否全为英文字母
+S.islower()                         判断字符串所有字符是否全为小写英文字母
+S.isupper()                          判断字符串所有字符是否全为大写英文字母
+S.isspace()                            判断字符串是否全为空白字符
+S.center(width[,fill])                 将原字符串居中，左右默认填充空格
+S.count(sub[, start[,end]])          获取一个字符串中子串的个数
+S.find(sub[, start[,end]])               获取字符串中子串sub的索引,失败返回-1
+S.strip()                                        返回去掉左右空白字符的字符串
+S.lstrip()                                          返回去掉左侧空白字符的字符串
+S.rstrip()                                            返回去掉右侧空白字符的字符串
+S.upper()                                        生成将英文转换为大写的字符串
+S.lower()                                          生成将英文转换为小写的字符串
+S.replace(old, new[, count])                  将原字符串的old用new代替，生成一个新的字符串
+S.startswith(prefix[, start[, end]])        返回S是否是以prefix开头，如果以prefix开头返回True,否则返回False,
+S.endswith(suffix[, start[, end]])      返回S是否是以suffix结尾，如果以suffix结尾返回True,否则返回False
+S.split(str,num)			指定分割符str对字符串进行切片，num为分割次数
+str.join(S)				       用于将序列S中的元素以指定字符连接成一个新的字符串。序列S中的元素必须是字符串。
+S.encode(encoding='utf-8',errors='strict')	以指定的编码格式将字符串进行编码，默认编码格式为utf-8
+bytes.decode(encoding='utf-8',errors='strict')	以指定的编码格式将bytes对象进行解码
+
+以下是不常用的 
+S.title()                  生成每个英文单词的首字母大写字符串
+S.isnumeric()           判断字符串是否全为数字字符
+S.isslnum()                             判断字符串是否由字母和数字组成
+S.swapcase()		用于对字符串的英文字母大小写进行转换，小变大，大变小
+
+
+
+    空白字符
+
+        是指空格,水平制表符(\t),换行符(\n)等不可见的字符
+
+格式化字符串中的占位符和类型码
+占位符类型码                意义
+%s                          字符串
+%r                        字符串，使用repr 而不是str
+%c                        整数转为单个字符
+%d                        十进制整数
+%o                     八进制整数
+%x                     十六进制整数(字符a-f小写)
+%X                 十六进制整数(字符A-F大写)
+%e                            指数型浮点数(e小写),如2.9e+10
+%E                      指数型浮点数(E大写),如2.9E+10
+%f, %F                 浮点十进制形式
+%g, %G                 十进制形式浮点或指数浮点自动转换
+%%                         等同于一个%字符
